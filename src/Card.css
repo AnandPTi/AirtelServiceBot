@@ -1,0 +1,54 @@
+.card {
+    background-color: #2B2932;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    flex: 1;
+    max-width: 250px;
+    transition: transform 0.3s ease;
+  }
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Space between the cards */
+    margin-bottom: 40px;
+  }
+  
+  .card {
+    padding: 20px;
+    background-color: #292929;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    overflow-wrap: break-word; /* Prevent content overflow */
+  }
+  
+  .card-square {
+    height: 200px; /* Keep the square cards a fixed height */
+  }
+  
+  .card-rectangle {
+    height: auto; /* Let the card expand naturally */
+    min-height: 200px; /* Ensure it's at least the height of the square cards */
+  }
+  
+  
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #bbb;
+  }
+  
