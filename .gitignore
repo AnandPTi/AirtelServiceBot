@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -13,11 +14,83 @@
 
 # misc
 .DS_Store
+=======
+# Node modules
+node_modules/
+
+# Build output
+build/
+
+# Temporary files
+*.log
+*.lock
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Local environment variables
+.env
+>>>>>>> a1c66bfc70645e11134b3bd0a77d78f7df45a639
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+<<<<<<< HEAD
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+=======
+# Mac system files
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Coverage directory used by testing tools like Jest
+coverage/
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# eslint cache
+.eslintcache
+
+# Parcel cache
+.cache/
+
+# Next.js
+.next/
+out/
+
+# Storybook files
+.storybook/
+stories/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IntelliJ IDEA files
+*.iml
+.idea/
+
+# Miscellaneous
+.vscode/
+*.env
+
+# Git files
+.git/
+# Virtual environment
+botenv/
+botenv
+manav/
+manav
+>>>>>>> a1c66bfc70645e11134b3bd0a77d78f7df45a639
