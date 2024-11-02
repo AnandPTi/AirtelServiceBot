@@ -1,5 +1,5 @@
 # embedding.py
-
+#pinecone as vectordb
 import os
 import requests
 from dotenv import load_dotenv
